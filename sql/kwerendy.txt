@@ -1,0 +1,8 @@
+SELECT id, nazwa, zdjecie FROM gry;
+
+SELECT nazwa, LEFT(opis, 100), punkty, cena FROM gry WHERE id=1;
+
+SELECT nazwa, punkty FROM gry ORDER BY punkty DESC LIMIT 5;
+
+INSERT INTO gry (nazwa, opis, punkty, cena, zdjecie)
+VALUES ('Zamczysko','Opis gry',0,50,'zamczysko.jpg');
