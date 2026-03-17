@@ -1,0 +1,58 @@
+* {
+    font-family: Garamond;
+    color: white;
+}
+
+header {
+    background: Indigo;
+    text-align: center;
+    padding: 2px;
+}
+
+#lewa, #prawa {
+    background: Indigo;
+    height: 600px;
+    width: 20%;
+    float: left;
+}
+
+#srodek {
+    background: black;
+    height: 600px;
+    width: 60%;
+    float: left;
+    overflow: scroll;
+}
+
+footer {
+    background: Indigo;
+    height: 150px;
+}
+
+li {
+    padding: 5px;
+}
+
+input {
+    margin: 10px;
+    color: Indigo;
+}
+
+.punkty {
+    background: Tomato;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.gra {
+    float: left;
+    text-align: center;
+    padding: 3px;
+}
+
+@media all and (max-width: 800px){
+    #lewa, #srodek, #prawa {
+        width: 100%;
+        float: none;
+    }
+}
